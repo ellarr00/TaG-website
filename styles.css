@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: #6B0B88;
+
+}
+
+.container{
+    background-color: #F6D7FF;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    transform: scaleX(1.0);
+    margin-bottom: 100px;
+}
+
+
+.hero{
+    padding-bottom: 0;
+    display: grid;
+    grid-template-columns: 700px 50px;
+
+} 
+
+.logo{
+    padding: 50px;
+    
+}
+
+.logo img{
+    height: 20vh;
+
+}
+
+.logo p{
+    color: #6B0B88;
+}
+
+
+.detel{
+    padding: 0px 50px;
+}
+
+.detel p{
+    padding-bottom: 50px;
+    font-size: 40px;
+    color: #6B0B88;
+}
+
+.detel a{
+    background-color: #DE6CF6;
+    padding: 5px 45px;
+    font-size: large;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.doodle img{
+    padding-top: 80px;
+}
+
+.hollow{
+    /* padding: 50px; */
+    padding-left: 600px;
+    align-items: center;
+    
+}
+
+.hollow img{
+    height: 10vh;
+    
+}
+
+.about {
+    display: flex;
+    /* justify-content: space-around; */
+    
+}
+
+.todo{
+    padding-left: 150px;
+}
+
+.todo-t{
+    margin: 3em 5em;
+    text-align: justify;
+    line-height: 2em;
+    font-size: 20px;
+    color: #6B0B88;
+}
+
+.our-services h1{
+    text-align: center;
+    font-size: 40px;
+    color: #6B0B88;
+    margin: 1em ;
+}
+
+.services{
+    display: flex;
+    
+}
+
+.online{
+    background-color: #F6D7FF;
+    color: #6B0B88;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    text-align: center;
+    padding: 2em;
+}
+
+#mentor{
+    background-color: #fff;
+}
+
+.online img{
+    padding: 1em;
+    height: 200px;
+    width: 200px;
+}
+
+.online h3{
+    padding: 1em;
+    font-size: 1.4em ;
+}
+
+.online p{
+    width: 200px;
+}
+
+.online .arrow{
+    height: 60px;
+    width: 80px;
+}
+
+.members{
+    margin: 2em;
+    display: flex;
+    flex-direction: column;
+    
+}
+.members h1{
+    margin: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 2.2em;
+}
+.reviews{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;
+    font-size: 1.3em;
+
+}
+
+.reviews p{
+    
+}
+.reviews h5{
+    padding: 0 2em;
+    
+
+}
+
+.mission{
+    margin: 0 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2.1em;
+}
+
+.mission img{
+    width: 200px;
+    height: 200px;
+}
+
+
+
+
+
